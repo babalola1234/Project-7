@@ -327,6 +327,9 @@
 
 ## Repeat steps 1-5 for another 2 Web Servers.
 
+![image of aws showing my 3 webservers, NFS and Mysql Server](./images/Project-7-image-1a-3-webservers-nfs-server-mysql-server.PNG)
+
+
 *  Verified that Apache files and directories are available on the Web Server in /var/www and also on the NFS server in /mnt/apps. created some new files from one server and checked the same files are accessible from other Web Servers. `
 
 * Located the log folder for Apache on the Web Server and mount it to NFS server’s export for logs. I made sure the mount point is persist after reboot.
